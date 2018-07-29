@@ -65,7 +65,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleTests\TestBase.cs" />
-    <Compile Include="SimpleTests\Hote_WriteReviewAndVerifyInvoice.cs" />
+    <Compile Include="SimpleTests\Hotel_WriteReviewAndVerifyInvoice.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Rosetta\Hotels.Framework.csproj">

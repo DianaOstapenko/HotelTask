@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.Collections.Generic;
 using NUnit.Framework;
 using Rosetta.Framework;
 using Rosetta.Framework.Pages;
@@ -8,7 +6,7 @@ using Rosetta.Framework.Pages;
 namespace Rosetta.Tests.SimpleTests
 {
     [TestFixture]
-    public class Hote_WriteReviewAndVerifyInvoice : TestBase
+    public class Hotel_WriteReviewAndVerifyInvoice : TestBase
     {
         [Test]
         public void WriteReviewAndCheckInvoiceForHotel()
