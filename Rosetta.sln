@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotels.Framework", "Rosetta\Hotels.Framework.csproj", "{0FC0DE72-075D-4758-9B36-A5CEFFBB47AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotels.Tests", "Rosetta.Tests\Hotels.Tests.csproj", "{4286745D-AD93-4B5F-B626-BC6AB537B239}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FC0DE72-075D-4758-9B36-A5CEFFBB47AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC0DE72-075D-4758-9B36-A5CEFFBB47AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC0DE72-075D-4758-9B36-A5CEFFBB47AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC0DE72-075D-4758-9B36-A5CEFFBB47AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4286745D-AD93-4B5F-B626-BC6AB537B239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4286745D-AD93-4B5F-B626-BC6AB537B239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4286745D-AD93-4B5F-B626-BC6AB537B239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4286745D-AD93-4B5F-B626-BC6AB537B239}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
