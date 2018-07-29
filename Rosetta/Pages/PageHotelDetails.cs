@@ -84,13 +84,11 @@ namespace Rosetta.Framework.Pages
 			TxtEmail.SendKeys(email);
 			TxtComment.SendKeys(comment);
 
-		
 			SelectElement ddlClean = new SelectElement(DdlClean);
 			SelectElement ddlComfort = new SelectElement(DdlComfort);
 			SelectElement ddlLocation = new SelectElement(DdlLocation);
 			SelectElement ddlFacilities = new SelectElement(DdlFacilities);
 			SelectElement ddlStaff = new SelectElement(DdlStaff);
-
 
 			// Set Raiting;
 			foreach (var raitingType in raiting)
