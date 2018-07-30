@@ -34,10 +34,13 @@ namespace Rosetta.Tests.SimpleTests
 			// Find "Swissotel Le Plaza Basel" Hotel > Write Review and rate Clean and Staff options;
 			Pages.PageHotels.Goto();
 			Pages.PageHotels.SelectHotel(swissotelLePlazaBasel);
-			//var clearRaiting = Pages.PageHotelDetails.GetRaiting(RaitingItems.Clean);
-			//var staffRaiting = Pages.PageHotelDetails.GetRaiting(RaitingItems.Staff);
-
+			var clearRaiting = Pages.PageHotelDetails.GetRaiting(RaitingItems.Clean);
+			var staffRaiting = Pages.PageHotelDetails.GetRaiting(RaitingItems.Staff);
 			Pages.PageHotelDetails.WriteReview("Diana", "mail@test.com", comment, raitingData);
+			var updatedclearRaiting = Pages.PageHotelDetails.GetRaiting(RaitingItems.Clean);
+			var updatedstaffRaiting = Pages.PageHotelDetails.GetRaiting(RaitingItems.Staff);
+	        Assert.Less(clearRaiting, updatedclearRaiting);
+			Assert.Less(staffRaiting, updatedstaffRaiting);
         }
     }
 }

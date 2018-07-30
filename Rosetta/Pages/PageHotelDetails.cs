@@ -46,7 +46,7 @@ namespace Rosetta.Framework.Pages
 		[FindsBy(How = How.XPath, Using = "//button[contains(@class, 'addreview')]")]
 		public IWebElement BtnSubmit;
 
-		public string GetRaiting(RaitingItems item)
+		public float GetRaiting(RaitingItems item)
 		{
 			string raitingValue;
 			switch (item)
@@ -70,7 +70,7 @@ namespace Rosetta.Framework.Pages
 					throw new NotImplementedException("Raiting Value for selected Item is not found: " + item);
 			}
 			raitingValue = raitingValue.Replace("px", "");
-			//float raiting = float.Parse(raitingValue, System.Globalization.CultureInfo.CurrentCulture);
+			float raiting = float.Parse(raitingValue, System.Globalization.CultureInfo.CurrentCulture);
 			return raitingValue;
 		}
 
